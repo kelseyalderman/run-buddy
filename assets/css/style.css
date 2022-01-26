@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helveetica, Arial, sans-serif;
 }
-/* apply styles to <header> */
+/* Header Style Start */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -36,6 +35,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* Header Style End */
+
+/* Footer Style Start */
 footer {
   background: #fce138;
   width: 100%;
@@ -55,9 +57,12 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* Footer Style End */
+
 section {
   padding: 60px;
 }
+
 /* Hero Style Start */
 .hero {
   background-image: url("../images/hero-bg.jpeg");
@@ -104,18 +109,24 @@ section {
 }
 /* Hero Style End */
 
-/* What We Do Style Start */
-.intro {
-  text-align: center;
-}
-.intro h2 {
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
   display: inline-block;
+  border-bottom: 3px solid;
+}
+.primary-border {
+  border-color: #fce138;
+}
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+/* What We Do Style Start */
+.intro {
+  text-align: center;
 }
 .intro p {
   line-height: 1.7;
@@ -125,3 +136,29 @@ section {
   margin: 0 auto;
 }
 /* What We Do Style End */
+
+/* What You Do Style Start */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+.steps div {
+  margin-bottom: 80px;
+}
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
+}
+/* What You Do Style End */
